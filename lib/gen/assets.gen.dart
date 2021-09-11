@@ -8,6 +8,9 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  AssetGenImage get coyote => const AssetGenImage('assets/icons/coyote.png');
+  AssetGenImage get panther => const AssetGenImage('assets/icons/panther.png');
+  AssetGenImage get sharks => const AssetGenImage('assets/icons/sharks.png');
   AssetGenImage get trophy => const AssetGenImage('assets/icons/trophy.png');
 }
 

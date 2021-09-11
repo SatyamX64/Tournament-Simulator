@@ -1,5 +1,6 @@
-
 import 'package:flutter/material.dart';
+
+import 'widget_barrel.dart';
 
 class ScoreBoard extends StatelessWidget {
   const ScoreBoard({Key? key}) : super(key: key);
@@ -8,7 +9,14 @@ class ScoreBoard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.all(16),
-      color: Colors.white24,
+      child: ListView.builder(
+        physics: BouncingScrollPhysics(),
+        itemBuilder: (context, index) {
+          return MatchCard();
+        },
+        itemCount: 8,
+      ),
     );
   }
 }
+

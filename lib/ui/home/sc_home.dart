@@ -16,7 +16,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   late final PageController _controller;
   late final StreamController<double> _percentController;
-  late final Size _size;
+  late Size _size;
 
   Stream<double> get _percentStream => _percentController.stream;
   Sink<double> get _percentSink => _percentController.sink;
@@ -58,15 +58,22 @@ class _HomeScreenState extends State<HomeScreen> {
                   }),
             ),
             Expanded(
-              child: PageView(
-                controller: _controller,
-                children: [
-                  ScoreBoard(),
-                  ScoreBoard(),
-                  ScoreBoard(),
-                  ScoreBoard(),
-                  ScoreBoard(),
-                ],
+              child: NotificationListener<OverscrollIndicatorNotification>(
+                onNotification: (overscroll) {
+                  overscroll.disallowGlow();
+                  return true;
+                },
+                child: PageView(
+                  physics: ClampingScrollPhysics(),
+                  controller: _controller,
+                  children: [
+                    ScoreBoard(),
+                    ScoreBoard(),
+                    ScoreBoard(),
+                    ScoreBoard(),
+                    ScoreBoard(),
+                  ],
+                ),
               ),
             ),
           ],
