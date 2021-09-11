@@ -16,16 +16,17 @@ class MyApp extends StatelessWidget {
       initialRoute: appConfig.initialRoute,
       onGenerateRoute: AppRouter.generateRoute,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        scaffoldBackgroundColor: COLOR_CONST.PRIMARY,
+      theme: ThemeData.dark().copyWith(
+        scaffoldBackgroundColor: COLOR_CONST.CANVAS,
+        primaryColor: COLOR_CONST.PURPLE,
       ),
     );
   }
 
   static Future<void> initGlobalConfigs() async {
     WidgetsFlutterBinding.ensureInitialized();
-    await SystemChrome.setPreferredOrientations(
-        [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
+    await SystemChrome.setPreferredOrientations(UI_CONST.ORIENTATION);
+    SystemChrome.setSystemUIOverlayStyle(UI_CONST.SYSTEM_OVERLAY_STYLE);
   }
 
   static Widget run() {
