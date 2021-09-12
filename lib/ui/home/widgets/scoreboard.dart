@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:nhl/ui/home/bloc/bloc.dart';
+import 'package:lottie/lottie.dart';
 import 'package:nhl/ui/home/bloc/game_bloc.dart';
 import 'package:nhl/ui/home/widgets/match_card.dart';
 
@@ -31,12 +32,21 @@ class ScoreBoard extends StatelessWidget {
               height: 64,
               width: double.maxFinite,
               padding: EdgeInsets.all(8),
-              child: ElevatedButton(
-                child: Text("Start Round $round"),
-                style: ElevatedButton.styleFrom(primary: Colors.purple),
-                onPressed: () {
-                  BlocProvider.of<GameBloc>(context).play();
-                },
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(4),
+                    gradient:
+                        LinearGradient(colors: [Colors.purple, Colors.red])),
+                child: ElevatedButton(
+                  child: Text(
+                    "Start Round $round",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  style: ElevatedButton.styleFrom(primary: Colors.transparent),
+                  onPressed: () {
+                    BlocProvider.of<GameBloc>(context).play();
+                  },
+                ),
               ),
             ),
           ],
@@ -51,7 +61,12 @@ class ScoreBoard extends StatelessWidget {
           itemCount: state.completedRoundsData[round - 1].length,
         );
       } else {
-        return Center(child: Text('No Data Available'));
+        return Center(
+            child: Text(
+          'Round Not Started',
+          style: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 24, color: Colors.white38),
+        ));
       }
     }
 

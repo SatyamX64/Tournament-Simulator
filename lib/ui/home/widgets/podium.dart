@@ -66,7 +66,10 @@ class Podium extends StatelessWidget {
                         LinearGradient(colors: [Colors.purple, Colors.red])),
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(primary: Colors.transparent),
-                  child: Text("Start Finals !!"),
+                  child: Text(
+                    "Start Finals !!",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
                   onPressed: () {
                     BlocProvider.of<GameBloc>(context).play();
                   },
@@ -76,7 +79,12 @@ class Podium extends StatelessWidget {
           ],
         );
       } else {
-        return Center(child: Text('No Data Available'));
+        return Center(
+            child: Text(
+          'Round Not Started',
+          style: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 24, color: Colors.white38),
+        ));
       }
     }
 
