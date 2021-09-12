@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:nhl/dependency_injectors.dart';
 import 'package:nhl/utils/my_const.dart';
 
 import 'app_config.dart';
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
     WidgetsFlutterBinding.ensureInitialized();
     await SystemChrome.setPreferredOrientations(UI_CONST.ORIENTATION);
     SystemChrome.setSystemUIOverlayStyle(UI_CONST.SYSTEM_OVERLAY_STYLE);
+    initKiwi();
   }
 
   static Widget run() {

@@ -2,8 +2,11 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:nhl/data/models/entity/entity.dart';
 
+typedef RoundResult = List<MatchResult>;
+typedef RoundInfo = List<MatchInfo>;
+
 class DataSource {
-  Future<List<MatchInfo>> getPreGameInfoForRound({required int round}) async {
+  Future<RoundInfo> getPreGameInfoForRound({required int round}) async {
     // assuming round starts from 1
     final jsonStr = await rootBundle.loadString('assets/data/playoffs.json');
     final playoffsData = jsonDecode(jsonStr) as List;
@@ -18,7 +21,7 @@ class DataSource {
     return preGameInfo;
   }
 
-  Future<List<MatchResult>> getResultForRound({required int round}) async {
+  Future<RoundResult> getResultForRound({required int round}) async {
     // assuming round starts from 1
     final jsonStr = await rootBundle.loadString('assets/data/playoffs.json');
     final playoffsData = jsonDecode(jsonStr) as List;

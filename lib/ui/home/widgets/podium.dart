@@ -1,18 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:nhl/ui/home/bloc/bloc.dart';
-import 'package:nhl/ui/home/bloc/game_bloc.dart';
-import 'package:nhl/ui/home/widgets/match_card.dart';
+import 'package:nhl/utils/my_const.dart';
 
-class ScoreBoard extends StatelessWidget {
-  const ScoreBoard(this.round, this.state, {Key? key}) : super(key: key);
+import 'match_card.dart';
 
-  final int round;
+class Podium extends StatelessWidget {
+  const Podium(this.state, {Key? key}) : super(key: key);
+
   final GameState state;
+  final int round = UI_CONST.ROUNDS;
+
   @override
   Widget build(BuildContext context) {
     Widget _getChild() {
-      if (state.currentRound == round) {
+      if (state.completedRoundsData.length == UI_CONST.ROUNDS) {
+        return Center(
+          child: Text('${state.completedRoundsData.last[0].home.team} won'),
+        );
+      } else if (state.currentRound == round) {
         return Column(
           children: [
             Expanded(
@@ -36,13 +42,6 @@ class ScoreBoard extends StatelessWidget {
               ),
             ),
           ],
-        );
-      } else if (state.currentRound > round) {
-        return ListView.builder(
-          itemBuilder: (context, index) {
-            return MatchCard();
-          },
-          itemCount: state.completedRoundsData[round - 1].length,
         );
       } else {
         return Center(child: Text('No Data Available'));
