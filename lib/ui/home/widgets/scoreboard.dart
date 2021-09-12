@@ -17,8 +17,12 @@ class ScoreBoard extends StatelessWidget {
           children: [
             Expanded(
               child: ListView.builder(
+                physics: BouncingScrollPhysics(),
                 itemBuilder: (context, index) {
-                  return MatchCard();
+                  return MatchInfoCard(
+                    home: state.currentRoundInfo![index].home,
+                    away: state.currentRoundInfo![index].away,
+                  );
                 },
                 itemCount: state.currentRoundInfo!.length,
               ),
@@ -28,8 +32,8 @@ class ScoreBoard extends StatelessWidget {
               width: double.maxFinite,
               padding: EdgeInsets.all(8),
               child: ElevatedButton(
-                child: Text(
-                    "Get Round $round Result"), // We will also show match info here
+                child: Text("Start Round $round"),
+                style: ElevatedButton.styleFrom(primary: Colors.purple),
                 onPressed: () {
                   BlocProvider.of<GameBloc>(context).play();
                 },
@@ -40,7 +44,9 @@ class ScoreBoard extends StatelessWidget {
       } else if (state.currentRound > round) {
         return ListView.builder(
           itemBuilder: (context, index) {
-            return MatchCard();
+            return MatchResultCard(
+                home: state.completedRoundsData[round - 1][index].home,
+                away: state.completedRoundsData[round - 1][index].away);
           },
           itemCount: state.completedRoundsData[round - 1].length,
         );

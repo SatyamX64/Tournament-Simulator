@@ -42,6 +42,8 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/data/
+    - assets/icons/teams/
+    - assets/lottie/
 
   
   

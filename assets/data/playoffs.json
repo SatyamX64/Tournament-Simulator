@@ -3,419 +3,211 @@
         "preGameInfo": [
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "predators",
+                    "name": "Predators"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "stars",
+                    "name": "NHL Stars"
                 }
             },
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "jets",
+                    "name": "NHL Jets"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "stlouis",
+                    "name": "St. Louis"
                 }
             },
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "calgary",
+                    "name": "Calgary"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "colorado",
+                    "name": "Colorado"
                 }
             },
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "sharks",
+                    "name": "NHL Sharks"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "golden_knights",
+                    "name": "Vegas Golden Knights"
                 }
             },
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "lightning",
+                    "name": "Lightning"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "bluejackets",
+                    "name": "Blue Jackets"
                 }
             },
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "bruins",
+                    "name": "Bruins"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "maple_leafs",
+                    "name": "Maple Leafs"
                 }
             },
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "capitals",
+                    "name": "Capitals"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "carolina",
+                    "name": "Carolina"
                 }
             },
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "islanders",
+                    "name": "Islanders"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "penguin",
+                    "name": "Penguin"
                 }
             }
         ],
         "result": [
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 3,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "predators",
+                        "name": "Predators"
                     }
                 },
                 "away": {
                     "goals": 4,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "stars",
+                        "name": "NHL Stars"
                     }
                 }
             },
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 5,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "jets",
+                        "name": "NHL Jets"
                     }
                 },
                 "away": {
-                    "goals": 4,
+                    "goals": 8,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "stlouis",
+                        "name": "St. Louis"
                     }
                 }
             },
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 3,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "calgary",
+                        "name": "Calgary"
                     }
                 },
                 "away": {
-                    "goals": 4,
+                    "goals": 5,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "colorado",
+                        "name": "Colorado"
                     }
                 }
             },
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 7,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "sharks",
+                        "name": "NHL Sharks"
                     }
                 },
                 "away": {
                     "goals": 4,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "golden_knights",
+                        "name": "Vegas Golden Knights"
                     }
                 }
             },
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 3,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "lightning",
+                        "name": "Lightning"
                     }
                 },
                 "away": {
                     "goals": 4,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "bluejackets",
+                        "name": "Blue Jackets"
                     }
                 }
             },
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 6,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "bruins",
+                        "name": "Bruins"
                     }
                 },
                 "away": {
                     "goals": 4,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "maple_leafs",
+                        "name": "Maple Leafs"
                     }
                 }
             },
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 6,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "capitals",
+                        "name": "Capitals"
                     }
                 },
                 "away": {
                     "goals": 4,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "carolina",
+                        "name": "Carolina"
                     }
                 }
             },
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 7,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "islanders",
+                        "name": "Islanders"
                     }
                 },
                 "away": {
                     "goals": 4,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "penguin",
+                        "name": "Penguin"
                     }
                 }
             }
@@ -425,99 +217,59 @@
         "preGameInfo": [
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "stars",
+                    "name": "NHL Stars"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "stlouis",
+                    "name": "St. Louis"
                 }
             },
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "colorado",
+                    "name": "Colorado"
                 },
                 "away": {
                     "image_path": "sharks",
-                    "name": "Canedians"
+                    "name": "NHL Sharks"
                 }
             },
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "bluejackets",
+                    "name": "Blue Jackets"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "bruins",
+                    "name": "Bruins"
                 }
             },
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "carolina",
+                    "name": "Carolina"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "islanders",
+                    "name": "Islanders"
                 }
             }
         ],
         "result": [
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 3,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "stars",
+                        "name": "NHL Stars"
                     }
                 },
                 "away": {
-                    "goals": 4,
+                    "goals": 6,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "stlouis",
+                        "name": "St. Louis"
                     }
                 }
             },
@@ -525,111 +277,47 @@
                 "home": {
                     "goals": 2,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "colorado",
+                        "name": "Colorado"
                     }
                 },
                 "away": {
-                    "goals": 4,
+                    "goals": 5,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "sharks",
+                        "name": "NHL Sharks"
                     }
                 }
             },
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 3,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "bluejackets",
+                        "name": "Blue Jackets"
                     }
                 },
                 "away": {
-                    "goals": 4,
+                    "goals": 5,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "bruins",
+                        "name": "Bruins"
                     }
                 }
             },
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 6,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "carolina",
+                        "name": "Carolina"
                     }
                 },
                 "away": {
-                    "goals": 4,
+                    "goals": 5,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "islanders",
+                        "name": "Islanders"
                     }
                 }
             }
@@ -639,107 +327,55 @@
         "preGameInfo": [
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "stlouis",
+                    "name": "St. Louis"
                 },
                 "away": {
                     "image_path": "sharks",
-                    "name": "Canedians"
+                    "name": "NHL Sharks"
                 }
             },
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "bruins",
+                    "name": "Bruins"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "carolina",
+                    "name": "Carolina"
                 }
             }
         ],
         "result": [
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 8,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "stlouis",
+                        "name": "St. Louis"
                     }
                 },
                 "away": {
-                    "goals": 4,
+                    "goals": 6,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "sharks",
+                        "name": "NHL Sharks"
                     }
                 }
             },
             {
                 "home": {
-                    "goals": 2,
+                    "goals": 3,
                     "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "bruins",
+                        "name": "Bruins"
                     }
                 },
                 "away": {
-                    "goals": 4,
+                    "goals": 0,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "carolina",
+                        "name": "Carolina"
                     }
                 }
             }
@@ -749,87 +385,29 @@
         "preGameInfo": [
             {
                 "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
+                    "image_path": "stlouis",
+                    "name": "St. Louis"
                 },
                 "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            },
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
+                    "image_path": "bruins",
+                    "name": "Bruins"
                 }
             }
         ],
         "result": [
             {
                 "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
                     "goals": 4,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            },
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
+                        "image_path": "stlouis",
+                        "name": "St. Louis"
                     }
                 },
                 "away": {
-                    "goals": 4,
+                    "goals": 3,
                     "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "preGameInfo": [
-            {
-                "home": {
-                    "image_path": "coyote",
-                    "name": "Penguins"
-                },
-                "away": {
-                    "image_path": "sharks",
-                    "name": "Canedians"
-                }
-            }
-        ],
-        "result": [
-            {
-                "home": {
-                    "goals": 2,
-                    "team": {
-                        "image_path": "coyote",
-                        "name": "Penguins"
-                    }
-                },
-                "away": {
-                    "goals": 4,
-                    "team": {
-                        "image_path": "shark",
-                        "name": "Canedians"
+                        "image_path": "bruins",
+                        "name": "Bruins"
                     }
                 }
             }

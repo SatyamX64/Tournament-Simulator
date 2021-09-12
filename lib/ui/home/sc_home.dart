@@ -5,9 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kiwi/kiwi.dart';
-import 'package:lottie/lottie.dart';
 import 'package:nhl/ui/home/bloc/bloc.dart';
-import 'package:nhl/ui/home/widgets/podium.dart';
 import 'package:nhl/utils/my_const.dart';
 
 import 'bloc/game_bloc.dart';
@@ -104,7 +102,6 @@ class _HomeScreenState extends State<HomeScreen> {
                             ScoreBoard(1, state),
                             ScoreBoard(2, state),
                             ScoreBoard(3, state),
-                            ScoreBoard(4, state),
                             Podium(state),
                           ],
                         );

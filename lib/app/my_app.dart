@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: COLOR_CONST.CANVAS,
-        primaryColor: COLOR_CONST.PURPLE,
+        primaryColor: COLOR_CONST.PRIMARY,
       ),
     );
   }

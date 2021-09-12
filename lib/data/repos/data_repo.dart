@@ -34,7 +34,8 @@ class DataRepository {
 
   DataRepository(this.dataSource);
 
-  Future playRound() async {
+  Future<void> playRound() async {
+    await Future.delayed(Duration(seconds: 0));
     if (!isInitial) {
       RoundResult result =
           await dataSource.getResultForRound(round: currentRound);
@@ -43,7 +44,6 @@ class DataRepository {
     if (isLastRound) {
       return;
     }
-    // await Future.delayed(Duration(seconds: 3));
     _currentRound++;
     _currentRoundInfo =
         await dataSource.getPreGameInfoForRound(round: currentRound);

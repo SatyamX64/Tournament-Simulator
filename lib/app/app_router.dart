@@ -12,7 +12,7 @@ class AppRouter {
       case SPLASH:
         return MaterialPageRoute(builder: (_) => const SplashScreen());
       case AppRouter.HOME:
-        return SlideNavigation(widget: HomeScreen());
+        return SlideNavigation(widget: const HomeScreen());
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(

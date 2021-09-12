@@ -21,7 +21,7 @@ class SplashScreen extends StatelessWidget {
                 constraints: BoxConstraints.expand(),
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
-                      colors: [Colors.black, COLOR_CONST.PURPLE],
+                      colors: [Colors.black, COLOR_CONST.PRIMARY],
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
                       stops: [0.0, 1.0]),
@@ -36,8 +36,8 @@ class SplashScreen extends StatelessWidget {
                 right: 0,
                 child: SizedBox(
                   height: 64,
-                  child: Lottie.network(
-                      'https://assets10.lottiefiles.com/private_files/lf30_9pixomne.json'),
+                  child: Lottie.asset(
+                      'assets/lottie/swipe.json'),
                 ),
               ),
             ],

@@ -15,5 +15,5 @@ class UI_CONST {
     statusBarIconBrightness: Brightness.light, //status barIcon Brightness
   );
 
-  static const ROUNDS = 5;
+  static const ROUNDS = 4;
 }

@@ -32,7 +32,7 @@ class ProgressBar extends StatelessWidget {
         _Checkpoint(percent, 1),
         _Checkpoint(percent, 2),
         _Checkpoint(percent, 3),
-        _Checkpoint(percent, 4),
+        // _Checkpoint(percent, 4),
         _Trophy(percent),
       ],
       percent: percent,
