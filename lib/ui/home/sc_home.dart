@@ -79,12 +79,29 @@ class _HomeScreenState extends State<HomeScreen> {
                         if (state.currentRound == UI_CONST.ROUNDS &&
                             state.completedRoundsData.length ==
                                 UI_CONST.ROUNDS) {
+                          WidgetsBinding.instance!.addPostFrameCallback((_) {
+                            if (_controller.hasClients) {
+                              _controller.animateToPage(UI_CONST.ROUNDS,
+                                  duration: Duration(milliseconds: 300),
+                                  curve: Curves.easeIn);
+                            }
+                          });
                           _percentSink.add(100.0);
                           return;
                         } else if (state.currentRound == 1) {
                           _percentSink.add(100.0 / UI_CONST.ROUNDS);
                           return;
                         } else {
+                          WidgetsBinding.instance!.addPostFrameCallback((_) {
+                            if (_controller.hasClients) {
+                              if (_controller.hasClients) {
+                                _controller.animateToPage(
+                                    state.currentRound - 2,
+                                    duration: Duration(milliseconds: 300),
+                                    curve: Curves.easeIn);
+                              }
+                            }
+                          });
                           _percentSink.add((state.currentRound - 1) *
                               (100 / UI_CONST.ROUNDS));
                         }
@@ -99,9 +116,18 @@ class _HomeScreenState extends State<HomeScreen> {
                           physics: ClampingScrollPhysics(),
                           controller: _controller,
                           children: [
-                            ScoreBoard(1, state),
-                            ScoreBoard(2, state),
-                            ScoreBoard(3, state),
+                            ScoreBoard(
+                              1,
+                              state,
+                            ),
+                            ScoreBoard(
+                              2,
+                              state,
+                            ),
+                            ScoreBoard(
+                              3,
+                              state,
+                            ),
                             Podium(state),
                           ],
                         );

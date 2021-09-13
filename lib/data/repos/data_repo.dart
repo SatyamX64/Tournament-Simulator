@@ -35,7 +35,7 @@ class DataRepository {
   DataRepository(this.dataSource);
 
   Future<void> playRound() async {
-    await Future.delayed(Duration(seconds: 0));
+    // await Future.delayed(Duration(seconds: 0));
     if (!isInitial) {
       RoundResult result =
           await dataSource.getResultForRound(round: currentRound);
