@@ -7,20 +7,20 @@ class AppRouter {
   static const SPLASH = '/splash';
   static const HOME = '/home';
 
-  static Route<dynamic> generateRoute(RouteSettings settings) {
+  static Route<dynamic>? generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case SPLASH:
         return MaterialPageRoute(builder: (_) => const SplashScreen());
       case AppRouter.HOME:
         return SlideNavigation(widget: const HomeScreen());
-      default:
-        return MaterialPageRoute(
-          builder: (_) => Scaffold(
-            body: Center(
-              child: Text('No route defined for ${settings.name}'),
-            ),
-          ),
-        );
+      // default:
+      //   return MaterialPageRoute(
+      //     builder: (_) => Scaffold(
+      //       body: Center(
+      //         child: Text('No route defined for ${settings.name}'),
+      //       ),
+      //     ),
+      //   );
     }
   }
 }
