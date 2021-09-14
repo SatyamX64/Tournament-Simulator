@@ -48,4 +48,10 @@ class DataRepository {
     _currentRoundInfo =
         await dataSource.getPreGameInfoForRound(round: currentRound);
   }
+
+  Future<void> reset() async {
+    _currentRound = 1;
+    _currentRoundInfo = await dataSource.getPreGameInfoForRound(round: 1);
+    _completedRoundsData.clear();
+  }
 }

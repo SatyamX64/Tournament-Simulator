@@ -89,6 +89,15 @@ class _HomeScreenState extends State<HomeScreen> {
                           _percentSink.add(100.0);
                           return;
                         } else if (state.currentRound == 1) {
+                          WidgetsBinding.instance!.addPostFrameCallback((_) {
+                            if (_controller.hasClients) {
+                              if (_controller.hasClients) {
+                                _controller.animateToPage(0,
+                                    duration: Duration(milliseconds: 300),
+                                    curve: Curves.easeIn);
+                              }
+                            }
+                          });
                           _percentSink.add(100.0 / UI_CONST.ROUNDS);
                           return;
                         } else {

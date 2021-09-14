@@ -38,6 +38,28 @@ class Podium extends StatelessWidget {
                 '2019 Champions',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
               ),
+              Container(
+                width: double.maxFinite,
+                height: 48,
+                margin: const EdgeInsets.symmetric(vertical: 16.0),
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(4),
+                      gradient:
+                          LinearGradient(colors: [Colors.purple, Colors.red])),
+                  child: ElevatedButton(
+                    style:
+                        ElevatedButton.styleFrom(primary: Colors.transparent),
+                    child: Text(
+                      "Restart Tournament",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    onPressed: () {
+                      BlocProvider.of<GameBloc>(context).reset();
+                    },
+                  ),
+                ),
+              ),
             ],
           ),
         );
