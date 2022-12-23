@@ -1,13 +1,16 @@
 ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white?longCache=true&style=flat-square) [![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&longCache=true&style=flat-square)](https://flutter.dev/)
 
-# NHL 2019 Playoffs 🏒
+# Tournament Simulator 🏒
 
 ### Introduction 🚀
 
-> NHL 2019
-Visualise the Stanley Cup Playoffs 2019-20
+> Tournament Simulator
 
-- [Demo Video](https://drive.google.com/file/d/1FzMfzpTc7YRrS4gaADGKL15dBD7wFAH1/view?usp=sharing)
+We can pass the tournament data as json, and the app will simulate the entire tournament.
+
+Example here simulates the Stanley Cup Playoffs 2019-20
+
+https://user-images.githubusercontent.com/62766656/209395346-61377e82-5738-42e0-b487-0591cf628349.mp4
 
 ### Usage 🎨
 
@@ -15,7 +18,11 @@ To clone and run this application, you'll need [git](https://git-scm.com) and [f
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/SatyamX64/nhl
+$ git clone https://gith
+
+
+
+ub.com/SatyamX64/nhl
 
 # Go into the repository
 $ cd nhl
